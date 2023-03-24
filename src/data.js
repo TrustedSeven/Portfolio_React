@@ -34,7 +34,7 @@ export const Blog = <FaLink />;
   Add a second paragraph for the about me section.
 */
 export const moreInfo =
-  "I am experienced Full Stack developer with over 6 years of experience. ";
+  "I am experienced Full Stack developer with over 7 years of experience. As a passionate full stack developer with a can-do attitude, I'm thrilled to leverage my technical experience to implement concepts into reality";
 
 /* Skills
  ************************************************************** 

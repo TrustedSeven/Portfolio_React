@@ -5,7 +5,7 @@ import styled from "styled-components";
 // Data
 import { Blog } from "../data";
 // Icons
-import { FaGithub } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const StyledSocialLinks = styled.div`
   a {
@@ -24,6 +24,13 @@ export default function SocialLinks() {
         className="link-icons"
       >
         <FaGithub />
+      </a>
+      <a
+        href={html_url}
+        aria-label="Check out my Linkedin profile."
+        className="link-icons"
+      >
+        <FaLinkedin />
       </a>
       {blog && (
         <a href={blog} aria-label="External link" className="link-icons">
